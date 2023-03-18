@@ -10,8 +10,7 @@ import SearchForm from "./searchForm/searchForm";
 import Modal from "./modal/Modal";
 import {GalleryList} from "./GalleryList/GalleryList";
 import {LoadMore} from "./LoadMore/LoadMore";
-import {GlobalStyle} from "./GlobalStyle.styled";
-import {Container} from "./Container.styled";
+import {GlobalStyle, Container} from "./GlobalStyle.styled";
 import {Loader} from "./loader/Loader";
 
 

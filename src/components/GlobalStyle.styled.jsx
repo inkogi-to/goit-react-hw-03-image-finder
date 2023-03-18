@@ -1,4 +1,4 @@
-import {createGlobalStyle} from 'styled-components'
+import styled, {createGlobalStyle} from 'styled-components'
 import 'modern-normalize'
 
 export const GlobalStyle = createGlobalStyle`
@@ -28,3 +28,12 @@ export const GlobalStyle = createGlobalStyle`
   }
 
 `
+
+
+export const Container = styled.div`
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  padding-bottom: 24px;
+`;
+
