@@ -1,5 +1,4 @@
 import {createGlobalStyle} from 'styled-components'
-import styled from 'styled-components'
 import 'modern-normalize'
 
 export const GlobalStyle = createGlobalStyle`
@@ -29,25 +28,3 @@ export const GlobalStyle = createGlobalStyle`
   }
 
 `
-// export const Container = styled.div`
-//   margin: 20px auto 0 auto;
-//   width: 600px;
-//   height: 600px;
-//   border-radius: 10px;
-//   padding: 20px 10px;
-//   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-//   background-color: rgba(225, 139, 139, 0.65);
-// `
-// export const TitlePhonebook = styled.h1`
-//   text-align: center;
-//   font-weight: bold;
-//   color: #ffffff;
-//
-// `
-// export const TitleContacts = styled.h2`
-//   text-align: center;
-//   font-weight: bold;
-//   margin: 40px 0 20px;
-//   color: #ffffff;
-//
-// `
