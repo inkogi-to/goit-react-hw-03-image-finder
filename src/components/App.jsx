@@ -16,7 +16,7 @@ import {Loader} from "./loader/Loader";
 
 
 class App extends Component {
-  static propTypes = {searchQuery: PropTypes.string.isRequired}
+  static propTypes = {searchQuery: PropTypes.string}
   state = {
     query: '',
     images: [],
